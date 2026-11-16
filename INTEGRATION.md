@@ -21,7 +21,7 @@ Certains fichiers photo fournis contiennent la barre système en bas : la retire
 
 ## Informations et vérifications restantes
 
-- Intégrer l’URL officielle du clip Shine à la place du bloc temporaire.
+- Clip fourni intégré : https://www.youtube.com/watch?v=5LMGQfB9Dic ; lecteur YouTube avec lien de secours. Vérifier la lecture dans le navigateur.
 - Vérifier les textes de biographie reconstruits depuis les captures avec le PDF de presse.
 - Instagram fourni : https://www.instagram.com/shelby.ouattara/
 - Confirmer les URL Facebook, Spotify, YouTube et le numéro WhatsApp avant de les ajouter. Ils ne sont pas inventés dans la page.
