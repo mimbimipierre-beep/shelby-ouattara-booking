@@ -1,34 +1,5 @@
-# Intégration de la landing page
+# Intégration terminée
 
-La page `index.html` reprend la structure des captures fournies. C’est une reconstruction à vérifier, pas un export des sources originales. Aucun déploiement n’a été effectué.
+La page finale et ses ressources locales ont été importées depuis la version 23 du site : sept photos et le dossier de presse PDF. Le clip Shine utilise le lecteur YouTube intégré. Les liens e-mail et WhatsApp de Zion Tour sont présents.
 
-## Médias à ajouter dans assets/
-
-Les fichiers joints à la conversation ne sont pas encore transférés dans ce dépôt. Comparer les images avant de les renommer ; les noms des fichiers sources ne permettent pas de tous les identifier avec certitude.
-
-| Chemin attendu | Contenu |
-| --- | --- |
-| assets/hero.png | Shelby à la guitare devant les bateaux bleus |
-| assets/portrait.png | Portrait souriant dans le décor avec planche de surf |
-| assets/concert-gent.png | Affiche Concert in Gent |
-| assets/festival-au-carre.png | Duo devant le panneau Festival au carré |
-| assets/live-guitare.png | Shelby chantant à la guitare sous la tente |
-| assets/live-profil.png | Autre vue de Shelby à la guitare |
-| assets/scene.png | Photo sur scène avec les lumières roses |
-| assets/dossier-de-presse-shelby-ouattara.pdf | PDF de presse fourni |
-
-Certains fichiers photo fournis contiennent la barre système en bas : la retirer avant intégration, en conservant le sujet. Ne pas employer une capture de page entière comme image du site.
-
-## Informations et vérifications restantes
-
-- Clip fourni intégré : https://www.youtube.com/watch?v=5LMGQfB9Dic ; lecteur YouTube avec lien de secours. Vérifier la lecture dans le navigateur.
-- Vérifier les textes de biographie reconstruits depuis les captures avec le PDF de presse.
-- Instagram fourni : https://www.instagram.com/shelby.ouattara/
-- Confirmer les URL Facebook, Spotify, YouTube et le numéro WhatsApp avant de les ajouter. Ils ne sont pas inventés dans la page.
-- Le formulaire prépare un e-mail via mailto ; il n’envoie pas automatiquement de message. Une réception serveur nécessiterait une implémentation supplémentaire.
-- Vérifier les médias, les liens, la mise en page mobile, le clavier et le formulaire dans un navigateur.
-- La police est chargée depuis Google Fonts ; les polices système prennent le relais en cas d’échec.
-
-## Exécution
-
-Page statique HTML/CSS/JS, sans dépendance de compilation. Servir le dossier racine via HTTP après ajout des médias. Aucun test navigateur ni exécution locale n’a pu être réalisé lors de la préparation.
+Le formulaire ouvre la messagerie du visiteur avec une demande préremplie. L’envoi doit être finalisé dans cette messagerie.
